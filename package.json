@@ -5,6 +5,6 @@
     "api": "cd server && npm install && npm start",
     "dev": "npm run api && npm run frontend",
     "build-frontend": "cd client && npm install && npm run build",
-    "railway": "npm run build-frontend && cd ../server && npm install && npm start"
+    "railway": "npm run build-frontend && npm run api"
   }
 }
