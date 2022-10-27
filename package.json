@@ -4,6 +4,7 @@
     "frontend": "cd ../client && npm install && npm start",
     "api": "cd server && npm install && npm start",
     "dev": "npm run api && npm run frontend",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "build-frontend": "cd client && npm install && npm run build",
+    "railway": "npm run build-frontend && cd ../server && npm install && npm start"
   }
 }
